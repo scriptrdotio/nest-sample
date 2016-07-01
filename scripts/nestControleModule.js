@@ -1,16 +1,16 @@
 // Require scriptr.io's Nest connector (note that that you first need 
 // to check it out from Github into your workspace)
-var clientModule = require("nest/nestClient.js");
+var clientModule = require("modules/nest/nestClient.js");
 
 // Require the AlertManager to send alerts
-var alertManager = require("samples/nest/AlertManager.js");
+var alertManager = require("./AlertManager.js");
 
 // Require the configuration script for obataining the min and max thresholds
-var config = require("samples/nest/config.js");
+var config = require("./config.js");
 
 // Require the built-in http module that allows you to invoke third party APIs
 var http = require("http");
-var util = require("samples/nest/util.js");
+var util = require("./util.js");
 
 /**
  * This class is responsible for reading values from the Nest thermostats, storing them and sending
