@@ -18,7 +18,7 @@
  *    ] 
  */
 
-var nestControlModule = require("samples/nest/nestControlModule");
+var nestControlModule = require("samples/nest/nestControlModule.js");
 
 // retrieve the request's parameters using the built-in "request" object
 // we expect three optional parameters: "from", "to" and "sort"
