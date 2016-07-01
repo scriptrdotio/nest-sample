@@ -7,7 +7,7 @@
  * @module samples/nest/jobs/daemonCheck
  */
 
-var nestControlModule = require("samples/nest/nestControlModule.js");
+var nestControlModule = require("../nestControlModule.js");
 var nestController = new nestControlModule.NestController();
 try {
   
