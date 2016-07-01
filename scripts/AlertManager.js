@@ -1,4 +1,4 @@
-var config = require("samples/nest/config.js");
+var config = require("./config.js");
 
 /*
  * Sends alerts via email
